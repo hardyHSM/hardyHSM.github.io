@@ -1,0 +1,202 @@
+var select_son = '<div class="select select-productItem"><span class="select__title">Size</span><span class="select__icon"></span><ul class="selectOption"><li class="selectOption__item">S</li><li class="selectOption__item">M</li><li class="selectOption__item">L</li><li class="selectOption__item">X1L</li><li class="selectOption__item">XXl</li><li class="selectOption__item">XXXL</li></ul></div>';
+var button_son = '<button type="button" class="button button-productItem" id="addToCart">Add to cart</button>';
+
+
+var products = {
+	"20021": {
+		"title": "Lacoste Men's Pocket Polo Shirt - Sahara",
+		"picture" : "img/products/11061198-1422364252-837496.jpg",
+		"price" : "75$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "",
+		"oldPrice" : "60$"
+	},
+	"20022" : {
+		"title": "Red Wing Men's Classic Suede Chukka Boots - Sage",
+		"picture" : "img/products/11037869-1421425393-415155.jpg",
+		"price" : "55$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "productItem__pin productItem__pin-sale",
+		"oldPrice" : ""
+	},
+	"20023" : {
+		"title": "Lyle & Scott Men's Short Sleeve Camo Pocket",
+		"picture" : "img/products/11068450-1424879651-489286.jpg",
+		"price" : "60$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "",
+		"oldPrice" : ""
+
+	},
+	"20024" : {
+		"title": "Lacoste Men's Polo Shirt - Bright Pink",
+		"picture" : "img/products/10491633-1404834121-942088.jpg",
+		"price" : "85$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "productItem__pin productItem__pin-hit",
+		"oldPrice" : ""
+
+	},
+	"20025" : {
+		"title": "Red Wing Men's Classic Suede Chukka Boots - Sage",
+		"picture" : "img/products/11030845-1414432580-260315.jpg",
+		"price" : "85$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "productItem__pin productItem__pin-sale",
+		"oldPrice" : "95$"
+
+	},
+	"20026" : {
+		"title": "Lacoste Men's Pocket Polo Shirt - Sahara",
+		"picture" : "img/products/11059021-8044280089894167.jpg",
+		"price" : "75$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "productItem__pin productItem__pin-new",
+		"oldPrice" : ""
+
+	},
+	"20027" : {
+		"title": "Lyle & Scott Men's Short Sleeve Camo Pocket",
+		"picture" : "img/products/11068485-1424879651-488547-copy.jpg",
+		"price" : "55$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "",
+		"oldPrice" : ""
+
+	},
+	"20028" : {
+		"title": "Red Wing Men's Classic Suede Chukka Boots - Sage",
+		"picture" : "img/products/10835891-1411485829-128941.jpg",
+		"price" : "60$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "productItem__pin productItem__pin-sale",
+		"oldPrice" : "60$"
+
+	},
+	"20029" : {
+		"title": "Lacoste Men's Polo Shirt - Bright Pink",
+		"picture" : "img/products/11044512-2174280276871891.jpg",
+		"price" : "85$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "",
+		"oldPrice" : ""
+	},
+	"20030" : {
+		"title": "Lacoste Men's Pocket Polo Shirt - Sahara",
+		"picture" : "img/products/11050496-1423046049-145811.jpg",
+		"price" : "75$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "",
+		"oldPrice" : ""
+	},
+	"20031" : {
+		"title": "Lyle & Scott Men's Short Sleeve Camo Pocket",
+		"picture" : "img/products/10852202-1396893929-816589.jpg",
+		"price" : "55$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "",
+		"oldPrice" : ""
+	},
+	"20032" : {
+		"title": "Lyle & Scott Men's Short Sleeve Camo Pocket",
+		"picture" : "img/products/10902860-1404276413991614.jpg",
+		"price" : "60$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "",
+		"oldPrice" : ""
+	},
+	"20033" : {
+		"title": "Lacoste Men's Polo Shirt - Bright Pink",
+		"picture" : "img/products/11061458-1422376632-829116-copy-2.jpg",
+		"price" : "85$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "productItem__pin productItem__pin-new",
+		"oldPrice" : ""
+	},
+	"20034" : {
+		"title": "Lacoste Men's Pocket Polo Shirt - Sahara",
+		"picture" : "img/products/11023795-1416414835-858259.jpg",
+		"price" : "75$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "productItem__pin productItem__pin-new",
+		"oldPrice" : ""
+	},
+	"20035" : {
+		"title": "Lyle & Scott Men's Short Sleeve Camo Pocket",
+		"picture" : "img/products/10085522-1404834121-942792.jpg",
+		"price" : "55$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "",
+		"oldPrice" : ""
+	},
+	"20035" : {
+		"title": "Lyle & Scott Men's Short Sleeve Camo Pocket",
+		"picture" : "img/products/11037815-1421425393-414726.jpg",
+		"price" : "60$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "",
+		"oldPrice" : ""
+	},
+	"20036" : {
+		"title": "Lacoste Men's Polo Shirt - Bright Pink",
+		"picture" : "img/products/11037869-1421425393-415155.jpg",
+		"price" : "85$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "",
+		"oldPrice" : ""
+	},
+	"20037" : {
+		"title": "Lyle & Scott Men's Short Sleeve Camo Pocket",
+		"picture" : "img/products/10852202-1396893929-816589.jpg",
+		"price" : "55$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "",
+		"oldPrice" : ""
+	},
+	"20038" : {
+		"title": "Lacoste Men's Pocket Polo Shirt - Sahara",
+		"picture" : "img/products/11050496-1423046049-145811.jpg",
+		"price" : "75$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "",
+		"oldPrice" : ""
+	},
+	"20039" : {
+		"title": "Lyle & Scott Men's Short Sleeve Camo Pocket",
+		"picture" : "img/products/10852202-1396893929-816589.jpg",
+		"price" : "55$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "",
+		"oldPrice" : ""
+	},
+	"20040" : {
+		"title": "Lacoste Men's Polo Shirt - Bright Pink",
+		"picture" : "img/products/10491633-1404834121-942088.jpg",
+		"price" : "85$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "productItem__pin productItem__pin-hit",
+		"oldPrice" : ""
+
+	}
+}
