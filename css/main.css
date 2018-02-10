@@ -403,15 +403,17 @@ input:active {
   box-sizing: border-box;
   padding: 10px 0px;
   transform: translateX(150%);
-  transition: all .2s linear;
+  transition: all .2s;
+  visibility: hidden;
 }
 .productItem .select-productItem {
+  visibility: hidden;
   position: absolute;
   top: 50%;
   margin-top: -15px;
   left: 6.32%;
   z-index: 55 !important;
-  transition: all .2s linear;
+  transition: all .2s;;
   transform: translateX(-150%);
   width: 35.5%;
 }
@@ -436,9 +438,11 @@ input:active {
 }
 .productItem:hover .button-productItem {
   transform: translateX(0%);
+  visibility: visible;
 }
 .productItem:hover .select-productItem {
   transform: translateX(0%);
+  visibility: visible;
 }
 .rightContent {
   position: relative;
