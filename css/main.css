@@ -1132,7 +1132,7 @@ footer {
   top: 50%;
   left: 20px;
 }
-@media  (max-width: 1400px) {
+@media  (max-width: 1500px) {
   .productItem {
     width: calc(16.66666667%);
   }
