@@ -1138,6 +1138,11 @@ footer {
     width: calc(16.66666667%);
   }
 }
+@media (max-width: 1400px) {
+   .prpadding: ;ductItem {
+    width: calc(20%);
+  }
+}
 @media  (max-width: 1300px) {
   .topLine__navbar {
     display: none;
@@ -1150,9 +1155,6 @@ footer {
   }
   .leftBar-open {
     display: block;
-  }
-  .productItem {
-    width: calc(20%);
   }
   .loadMore {
     position: relative;
