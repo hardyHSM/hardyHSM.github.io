@@ -450,7 +450,7 @@ input:active {
 .loadMore {
   padding-left: 30px;
   padding-right: 30px;
-  position: absolute;
+  position: relative;
   bottom: 0px;
   top: auto;
   left: 0;
