@@ -451,8 +451,7 @@ input:active {
   padding-left: 30px;
   padding-right: 30px;
   position: absolute;/* on bottom*/
-  top: 100%;
-  transform: translateY(-63px);
+  bottom: 0px;
   left: 0;
   right: 0;
   margin-top: 0px;
