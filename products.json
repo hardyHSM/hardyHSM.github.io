@@ -198,5 +198,15 @@ var products = {
 		"pin" : "productItem__pin productItem__pin-hit",
 		"oldPrice" : ""
 
+	},
+	"20041" : {
+		"title": "Lyle & Scott Men's Short Sleeve Camo Pocket",
+		"picture" : "img/products/11068450-1424879651-489286.jpg",
+		"price" : "60$",
+		"select" : select_son,
+		"button" : button_son, 
+		"pin" : "",
+		"oldPrice" : ""
+
 	}
 }
