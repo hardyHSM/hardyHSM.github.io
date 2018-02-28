@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import '_var';
+@import '_footer';
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: @addFont;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 20px;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+button:focus {
+	outline: none;
+}
+.container {
+	width: 100%;
+	max-width: 1070px;
+	min-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.wrap {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.section {
+	padding-top: 100px;
+	padding-bottom: 130px;
+	&__caption {
+		color: @greyColor;
+		margin: 0 auto;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 50px;
+		font-family: @mainFont;
+		letter-spacing: 1.3px;
+		text-transform: uppercase;
+		margin-bottom: 40px;
+		&--white {
+			color: @white;
+		}
+	}
+	&__description {
+		width: 100%;
+		max-width: 950px;
+		text-align: center;
+		font-family: @addFont;
+		font-size: 20px;
+		font-weight: 400;
+		margin: 0 auto;
+		margin-bottom: 40px;
+		color: @greyColor;
+	}
+}
+@font-face {
+    font-family: 'BigNoodleTitling';
+    src: url('../fonts/bignoodletitling/BigNoodleTitling.eot');
+    src: url('../fonts/bignoodletitling/BigNoodleTitling.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/bignoodletitling/BigNoodleTitling.woff2') format('woff2'),
+        url('../fonts/bignoodletitling/BigNoodleTitling.woff') format('woff'),
+        url('../fonts/bignoodletitling/BigNoodleTitling.ttf') format('truetype'),
+        url('../fonts/bignoodletitling/BigNoodleTitling.svg#BigNoodleTitling') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import '_header';
+@import '_findTour';
+@import '_discount';
+@import '_trips';
+@import '_news';
+@import '_burger';

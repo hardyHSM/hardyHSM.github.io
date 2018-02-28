@@ -1,0 +1,115 @@
+.section--trips {
+  padding-bottom: 0px;
+}
+.section--discount {
+  padding: 0px !important;
+  background-image: url('../img/section-products.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.section--discount::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(66, 144, 226, 0.6);
+}
+.section__caption--news {
+  padding-top: 120px;
+  padding-bottom: 70px;
+}
+.products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.product-item {
+  margin-bottom: 30px;
+  font-family: 'BigNoodleTitling', sans-serif;
+  box-sizing: border-box;
+  box-shadow: 0 5px 6px 1px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  width: 32%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.product-item__img {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+.product-item__price {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 5;
+  padding: 10px 15px;
+  background-color: #47a0ff;
+  width: 47%;
+  margin: -35px auto 25px auto;
+}
+.product-item__oldPrice {
+  display: inline-block;
+  text-decoration: line-through;
+  font-size: 18px;
+}
+.product-item__nowPrice {
+  display: inline-block;
+  font-size: 27px;
+}
+.product-item__caption {
+  text-align: center;
+  margin: 0px auto;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #606060;
+  margin-bottom: 20px;
+}
+.product-item__inner {
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: 'Open Sans', sans-serif;
+  color: #606060;
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.product-item__button {
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  background-color: #006fe6;
+  color: #fff;
+  outline: none;
+  border: none;
+  display: block;
+  margin: 0px auto 30px auto;
+  padding: 22px 0px;
+  margin-top: auto;
+  width: 80%;
+  border-radius: 5px;
+  text-align: center;
+  transition: all .5s;
+}
+.product-item__button:hover {
+  transform: scale(1.1);
+}
+.product-item__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 5;
+  padding: 0px 30px;
+}

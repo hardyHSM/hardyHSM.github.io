@@ -1,0 +1,68 @@
+@import '_var';
+
+.section--news {
+	background-color: #ebebeb;
+	padding: 0px 0px 120px;
+}
+.events {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+.new-item {
+	font-family: @addFont;
+	display: flex;
+	flex-direction: column;
+	padding: 12px;
+	background-color: #fff;
+	width: 30%;
+	&__content {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	&__img {
+		max-width: 100%;
+		height: auto;
+		display: block;
+	}
+	&__caption {
+		font-weight: bold;
+		letter-spacing: 0.1px;
+		font-size: 20px;
+		color: #47a0ff;
+		margin-top: 35px;
+		margin-bottom: 25px;
+	}
+	&__data {
+		font-family: @addFont;
+		font-size: 15px;
+		font-weight: 400;
+	}
+	&__user, &__date {
+		display: inline-block;
+	}
+	&__paragraph {
+		margin-top: 40px;
+		font-size: 16px;
+		margin-bottom: 40px;
+	}
+}
+.ico-user {
+	vertical-align: middle;
+	margin-right: 10px;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: url('../img/icon/ico-user.svg') no-repeat  center center;
+	background-size: cover;
+}
+.ico-calendar {
+	vertical-align: middle;
+	margin-right: 10px;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: url('../img/icon/ico-calendar.svg') no-repeat  center center;
+	background-size: cover;
+}

@@ -1,0 +1,40 @@
+.button-burger{
+     position: absolute;
+     right: 0px;
+     z-index: 10;
+     width: 100px;
+     height: 100px;
+     cursor: pointer;
+     display: none;
+}
+
+.button-burger path{
+  stroke-width: 20;
+  stroke-linecap: round;
+  stroke: #fff;
+  fill: none;
+  transition: all .5s ease-in-out;
+}
+
+/* In menu form */
+
+.top_bar,
+.bottom_bar{
+  stroke-dasharray: 240px 910px;
+}
+
+.middle_bar{
+  stroke-dasharray: 240px 240px;
+}
+
+/* In cross form */
+
+.button-burger--open .top_bar,
+.button-burger--open .bottom_bar{
+  stroke-dashoffset: -650px;
+}
+
+.button-burger--open .middle_bar{
+  stroke-dasharray: 0px 220px;
+  stroke-dashoffset: -120px;
+}
